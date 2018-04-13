@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+body{
+	background-color: black;
+	}
+h1{
+	color: red;
+	margin: 50px;
+	font-size: 300%
+	}
+#demo{
+	color: white;
+	margin: 150px;
+	font-size: 200%;
+	}
+button{
+	background-color:red;
+	color: whte;
+	font-size: 100%;
+	}
+</style>
+</head>
+
+
+<body onload="typeWriter()" >
+
+<h1><center>Hey What's up??<br> I ain't talking to you. I was talking about what's up in the link.</center></h1>
+
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'This is just a promotional page for our BTKIT CODING CLUB. And the clue is NOT in this page.';
+var speed = 50;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+<!-- don't know where to go??? 
+just find the fucking clueless clue and and go to the previous page and change the url
+YOUR EYES CAN DECIEVE YOU. DON'T TRUST THEM
+but if they don't..then something else can.
+See ya later!!!
+-->
+
